@@ -30,7 +30,7 @@ But ELMo wants to commit a vector to  a word only after meeting one condition. I
 
 ![image](http://jalammar.github.io/images/elmo-word-embedding.png)
 
-For intuitive understanding refer to this blog [ELMo explained](http://jalammar.github.io/illustrated-bert/)
+For further intuitive understanding refer to this blog [ELMo explained](http://jalammar.github.io/illustrated-bert/)
 
 **The detailed explanation about its functioning and architecuture can be referred from the paper [Deep contextualized word representations](https://arxiv.org/abs/1802.05365)**
 
@@ -89,11 +89,11 @@ This leads to the *Word sense disambiguation* task which shows how biLM represen
 It takes 5 sentences as examples:
 Here word *work* either symbolizes some object made or some sort of action taken in each of the sentences. 
 
-["I", "love", "this", "beautiful","*work*", "by", "Vincent", "Van", "Gogh",""]
-["Tiya", "*works*", "really", "hard", "for", "exams", "every", "day","",""],
-["My", "sister", "likes", "*working*", "at", "Google","","","",""],
-["This", "amazing", "*work*", "was", "done", "in", "the", "early", "nineteenth", "century"],
-["Hundreds", "of", "people", "*work*", "in", "this", "building","","",""]
+- ["I", "love", "this", "beautiful","*work*", "by", "Vincent", "Van", "Gogh",""]
+- ["Tiya", "*works*", "really", "hard", "for", "exams", "every", "day","",""],
+- ["My", "sister", "likes", "*working*", "at", "Google","","","",""],
+- ["This", "amazing", "*work*", "was", "done", "in", "the", "early", "nineteenth", "century"],
+- ["Hundreds", "of", "people", "*work*", "in", "this", "building","","",""]
 
 For 2 layer biLSTM model employed by us from TensorFlow Hub, we have 2 biLSTM layer representations. 
 
