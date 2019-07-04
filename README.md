@@ -8,4 +8,4 @@ Topics covered:
 - ElMo embeddings
 - Implementing pretrained ELMo module from Tensorflow Hub for
     - visualizing different vector representations provided by ELMo model and their significance [Visualizing_ELMo_capture_Semantic_info.ipynb](https://github.com/Vishwa22/Named_Entity_Recognition/blob/master/Visualizing_ELMo_capture_Semantic_info.ipynb)
-    - using it for downstream task [Named Entity recognition](https://github.com/Vishwa22/Named_Entity_Recognition/blob/master/Elmo_in_my_NER.ipynb) 
+    - using it for downstream task [Elmo_in_my_NER.ipynb](https://github.com/Vishwa22/Named_Entity_Recognition/blob/master/Elmo_in_my_NER.ipynb) 
