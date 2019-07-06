@@ -77,9 +77,13 @@ For our task we are using *tokens* signature
 The output dictionary contains:
 
 word_emb: the character-based word representations with shape `[batch_size, max_length, 512]`.
+
 lstm_outputs1: the first LSTM hidden state with shape `[batch_size, max_length, 1024]`.
+
 lstm_outputs2: the second LSTM hidden state with shape `[batch_size, max_length, 1024]`.
+
 elmo: the weighted sum of the 3 layers, where the weights are trainable. This tensor has shape `[batch_size, max_length, 1024]`.
+
 default: a fixed mean-pooling of all contextualized word representations with shape `[batch_size, 1024]`.
 
 Section `5.3` in the paper talks about what information is captured by the biLM's representations in ELMo model. Intuitively, the biLM must be disambiguating the meaning of words using their context. The paper takes example of word *play* and illustrates how biLM chooses nearest neighbors differently than GloVe. Refer Table `4` for the same.
